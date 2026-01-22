@@ -3,9 +3,3 @@ class Solution {
         List<Integer> ans = new ArrayList<Integer>();
         for(int i = 1; i<arr.length-1;i++){
             if(arr[i] > arr[i-1] && arr[i] > arr[i+1]){
-                ans.add(i);
-            }
-        }
-        return ans;
-    }
-}
