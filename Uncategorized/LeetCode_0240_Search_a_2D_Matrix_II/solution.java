@@ -8,13 +8,3 @@ class Solution {
 
         while (i < m && j >= 0) {
             if (arr[i][j] == target) {
-                return true;
-            } else if (arr[i][j] > target) {
-                j--;   // move left
-            } else {
-                i++;   // move down
-            }
-        }
-        return false;
-    }
-}
