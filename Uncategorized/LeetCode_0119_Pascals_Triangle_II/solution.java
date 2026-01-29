@@ -9,3 +9,14 @@ class Solution {
                 if (j == 0 || j == i) {
                     row.add(1);
                 } else {
+                    int val = ans.get(i - 1).get(j - 1)
+                            + ans.get(i - 1).get(j);
+                    row.add(val);
+                }
+            }
+            ans.add(row);
+        }
+        return ans.get(rowIndex);
+
+    }
+}
