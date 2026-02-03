@@ -7,13 +7,3 @@ class Solution {
 
         for (int i = 0; i < nums.length; i++) {
             totalSum -= nums[i];   // right sum
-
-            if (leftSum == totalSum) {
-                return i;
-            }
-
-            leftSum += nums[i];
-        }
-        return -1;
-    }
-}
