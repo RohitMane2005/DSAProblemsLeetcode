@@ -5,11 +5,3 @@ class Solution {
         int first = 0;
         int sec = 1;
         for(int i = 0; i<n; i++){
-            int third = first + sec;
-
-        first = sec;
-        sec = third;
-        }
-        return first;
-    }
-}
