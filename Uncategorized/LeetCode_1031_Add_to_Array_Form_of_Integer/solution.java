@@ -9,3 +9,16 @@ class Solution {
         while (p >= 0 || k > 0 || carry > 0) {
             int numVal = (p >= 0) ? num[p] : 0;
             int digit = k % 10;
+
+            int sum = numVal + digit + carry;
+            ans.add(sum % 10);
+
+            carry = sum / 10;
+            p--;
+            k /= 10;
+        }
+
+        Collections.reverse(ans);
+        return ans;
+    }
+}
