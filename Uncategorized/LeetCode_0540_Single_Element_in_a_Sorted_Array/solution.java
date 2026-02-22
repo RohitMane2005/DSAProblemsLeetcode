@@ -6,3 +6,11 @@ class Solution {
             int mid = left + (right - left)/2;
             if(mid%2 == 1) mid--;
             if(arr[mid] == arr[mid+1]){
+                left = mid + 2;
+            }else{
+                right = mid;
+            }
+        }
+        return arr[left];
+    }
+}
