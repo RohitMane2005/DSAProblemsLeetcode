@@ -9,14 +9,3 @@ class Solution {
                 digits[i]++;
                 return digits;
             }
-
-            // If digit is 9, make it 0 and continue carry
-            digits[i] = 0;
-        }
-
-        // If all digits were 9 (e.g. [9,9,9])
-        int[] result = new int[digits.length + 1];
-        result[0] = 1;
-        return result;
-    }
-}
