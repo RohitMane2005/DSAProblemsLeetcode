@@ -5,3 +5,11 @@ class Solution {
         int sum = 0;
 
         for (int s : salary) {
+            sum += s;
+            min = Math.min(min, s);
+            max = Math.max(max, s);
+        }
+
+        return (double)(sum - min - max) / (salary.length - 2);
+    }
+}
