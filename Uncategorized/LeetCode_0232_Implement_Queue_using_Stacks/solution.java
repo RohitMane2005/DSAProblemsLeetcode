@@ -16,21 +16,3 @@ class MyQueue {
         if (outStack.isEmpty()) {
             while (!inStack.isEmpty()) {
                 outStack.push(inStack.pop());
-            }
-        }
-        return outStack.pop();
-    }
-    
-    public int peek() {
-        if (outStack.isEmpty()) {
-            while (!inStack.isEmpty()) {
-                outStack.push(inStack.pop());
-            }
-        }
-        return outStack.peek();
-    }
-    
-    public boolean empty() {
-        return inStack.isEmpty() && outStack.isEmpty();
-    }
-}
