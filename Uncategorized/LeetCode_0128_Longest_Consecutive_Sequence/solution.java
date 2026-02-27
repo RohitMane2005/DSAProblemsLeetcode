@@ -12,18 +12,3 @@ class Solution {
             
             // start of sequence
             if (!set.contains(num - 1)) {
-                int currentNum = num;
-                int length = 1;
-                
-                while (set.contains(currentNum + 1)) {
-                    currentNum++;
-                    length++;
-                }
-                
-                longest = Math.max(longest, length);
-            }
-        }
-        
-        return longest;
-    }
-}
