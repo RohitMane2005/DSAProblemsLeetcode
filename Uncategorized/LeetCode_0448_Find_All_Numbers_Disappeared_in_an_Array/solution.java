@@ -9,3 +9,15 @@ class Solution {
             if (nums[index] > 0) {
                 nums[index] = -nums[index];
             }
+        }
+
+        // Step 2: Collect missing numbers
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] > 0) {
+                result.add(i + 1);
+            }
+        }
+
+        return result;
+    }
+}
