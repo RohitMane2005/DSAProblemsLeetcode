@@ -13,3 +13,19 @@ class Solution {
         map.put('M',1000);
 
         int sum = 0;
+
+        for(int i = 0; i < s.length(); i++){
+            
+            int current = map.get(s.charAt(i));
+            
+            if(i < s.length()-1 && current < map.get(s.charAt(i+1))){
+                sum -= current;
+            }
+            else{
+                sum += current;
+            }
+        }
+
+        return sum;
+    }
+}
