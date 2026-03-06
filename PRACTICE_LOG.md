@@ -1002,3 +1002,9 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - 2D grid DP table for LCS.
 - Binary search patient sorting O(N log N) optimization for LIS.
 - Time: O(N log N), Space: O(N).
+
+### 📝 Practice Log: 2026-03-06 (2026-03-06 20:17:13 UTC)
+- **Topic**: `Heaps / Priority Queue`
+- **Focus**: Top K Frequent Elements & Min-Heap / Max-Heap patterns
+- Maintained min-heap of size K to find top K largest elements.
+- Time: O(N log K), Space: O(K).
