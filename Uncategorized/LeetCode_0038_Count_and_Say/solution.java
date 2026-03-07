@@ -7,12 +7,3 @@ class Solution {
         while(j != s.length()){
             if(s.charAt(i) == s.charAt(j)) j++;
             else{
-                int freq = j - i;
-                ans += freq;
-                ans += s.charAt(i);
-                i = j;
-            }
-        } 
-        return ans;
-    }
-}
