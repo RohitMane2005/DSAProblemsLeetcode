@@ -38,3 +38,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Decision tree traversal: choose -> explore -> un-choose.
 - Base conditions and pruning invalid search branches.
 - Time: O(2^N) or O(N!), Space: O(N) call stack.
+
+### 📝 Practice Log: 2026-03-08 (2026-03-08 20:17:05 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: Longest Common Subsequence & Longest Increasing Subsequence
+- 2D grid DP table for LCS.
+- Binary search patient sorting O(N log N) optimization for LIS.
+- Time: O(N log N), Space: O(N).
