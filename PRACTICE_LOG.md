@@ -59,3 +59,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - TrieNode with 26-child array and is_end_of_word flag.
 - Fast O(L) prefix lookup where L is word length.
 - Time: O(L), Space: O(ALPHABET_SIZE * N * L).
+
+### 📝 Practice Log: 2026-03-10 (2026-03-10 20:54:13 UTC)
+- **Topic**: `Stack & Queue`
+- **Focus**: Monotonic Stack for Next Greater Element
+- Maintained monotonic decreasing stack for nearest larger element.
+- Handled duplicate edge cases.
+- Time: O(N), Space: O(N).
