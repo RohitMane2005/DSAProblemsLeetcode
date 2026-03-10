@@ -52,3 +52,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Decision tree traversal: choose -> explore -> un-choose.
 - Base conditions and pruning invalid search branches.
 - Time: O(2^N) or O(N!), Space: O(N) call stack.
+
+### 📝 Practice Log: 2026-03-10 (2026-03-10 17:12:43 UTC)
+- **Topic**: `Trie (Prefix Tree)`
+- **Focus**: Prefix Tree insertion and search optimization
+- TrieNode with 26-child array and is_end_of_word flag.
+- Fast O(L) prefix lookup where L is word length.
+- Time: O(L), Space: O(ALPHABET_SIZE * N * L).
