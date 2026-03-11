@@ -7,13 +7,3 @@ class Solution {
         for (int i = 0; i < n; i++) {
 
             char c = nums[i].charAt(i);
-
-            if (c == '0')
-                ans.append('1');
-            else
-                ans.append('0');
-        }
-
-        return ans.toString();
-    }
-}
