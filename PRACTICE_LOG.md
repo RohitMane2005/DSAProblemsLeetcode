@@ -66,3 +66,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Maintained monotonic decreasing stack for nearest larger element.
 - Handled duplicate edge cases.
 - Time: O(N), Space: O(N).
+
+### 📝 Practice Log: 2026-03-12 (2026-03-12 11:47:16 UTC)
+- **Topic**: `Two Pointers`
+- **Focus**: Fast and Slow Pointers pattern review
+- Cycle detection in sequences and middle-element finder.
+- Step sizes: slow=1, fast=2.
+- Time Complexity: O(N), Space Complexity: O(1).
