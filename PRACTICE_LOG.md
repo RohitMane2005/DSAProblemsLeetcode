@@ -73,3 +73,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Cycle detection in sequences and middle-element finder.
 - Step sizes: slow=1, fast=2.
 - Time Complexity: O(N), Space Complexity: O(1).
+
+### 📝 Practice Log: 2026-03-12 (2026-03-12 11:57:26 UTC)
+- **Topic**: `Greedy`
+- **Focus**: Interval Scheduling & Merge Intervals
+- Sort by start/end time.
+- Greedy selection of non-overlapping intervals.
+- Time: O(N log N), Space: O(1) or O(N).
