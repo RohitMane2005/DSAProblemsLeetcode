@@ -80,3 +80,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Sort by start/end time.
 - Greedy selection of non-overlapping intervals.
 - Time: O(N log N), Space: O(1) or O(N).
+
+### 📝 Practice Log: 2026-03-12 (2026-03-12 13:12:38 UTC)
+- **Topic**: `Trees`
+- **Focus**: Binary Tree Level Order Traversal & Diameter
+- BFS using Queue for level-by-level tracking.
+- Recursive post-order traversal to calculate subtree heights and diameter.
+- Time: O(N), Space: O(H).
