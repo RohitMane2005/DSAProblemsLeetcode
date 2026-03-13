@@ -94,3 +94,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Inorder traversal of valid BST yields strictly increasing sequence.
 - Maintained (min_val, max_val) bounding range recursively.
 - Time: O(N), Space: O(H).
+
+### 📝 Practice Log: 2026-03-13 (2026-03-13 21:47:20 UTC)
+- **Topic**: `Greedy`
+- **Focus**: Interval Scheduling & Merge Intervals
+- Sort by start/end time.
+- Greedy selection of non-overlapping intervals.
+- Time: O(N log N), Space: O(1) or O(N).
