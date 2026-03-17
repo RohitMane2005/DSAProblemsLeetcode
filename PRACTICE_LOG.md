@@ -101,3 +101,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Sort by start/end time.
 - Greedy selection of non-overlapping intervals.
 - Time: O(N log N), Space: O(1) or O(N).
+
+### 📝 Practice Log: 2026-03-17 (2026-03-17 10:08:50 UTC)
+- **Topic**: `Stack & Queue`
+- **Focus**: Monotonic Stack for Next Greater Element
+- Maintained monotonic decreasing stack for nearest larger element.
+- Handled duplicate edge cases.
+- Time: O(N), Space: O(N).
