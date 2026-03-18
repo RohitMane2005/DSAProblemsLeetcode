@@ -122,3 +122,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Sort by start/end time.
 - Greedy selection of non-overlapping intervals.
 - Time: O(N log N), Space: O(1) or O(N).
+
+### 📝 Practice Log: 2026-03-18 (2026-03-18 14:35:01 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: Longest Common Subsequence & Longest Increasing Subsequence
+- 2D grid DP table for LCS.
+- Binary search patient sorting O(N log N) optimization for LIS.
+- Time: O(N log N), Space: O(N).
