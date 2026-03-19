@@ -129,3 +129,9 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - 2D grid DP table for LCS.
 - Binary search patient sorting O(N log N) optimization for LIS.
 - Time: O(N log N), Space: O(N).
+
+### 📝 Practice Log: 2026-03-19 (2026-03-19 12:34:08 UTC)
+- **Topic**: `Graphs`
+- **Focus**: Breadth First Search (BFS) for shortest path in unweighted graph
+- Queue-based frontier expansion with visited set to prevent infinite cycles.
+- Time: O(V + E), Space: O(V).
