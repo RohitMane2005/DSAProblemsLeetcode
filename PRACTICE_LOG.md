@@ -149,3 +149,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Sort by start/end time.
 - Greedy selection of non-overlapping intervals.
 - Time: O(N log N), Space: O(1) or O(N).
+
+### 📝 Practice Log: 2026-03-21 (2026-03-21 12:53:46 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: 0/1 Knapsack & Unbounded Knapsack memoization
+- State representation dp[index][capacity].
+- Space optimization to single 1D array iterating backwards.
+- Time: O(N * W), Space: O(W).
