@@ -23,3 +23,28 @@ class Solution {
 
         // Reverse each row
         for (int i = 0; i < n; i++) {
+            reverse(mat[i]);
+        }
+    }
+
+    private void reverse(int[] row) {
+        int left = 0, right = row.length - 1;
+        while (left < right) {
+            int temp = row[left];
+            row[left] = row[right];
+            row[right] = temp;
+            left++;
+            right--;
+        }
+    }
+
+    private boolean isEqual(int[][] a, int[][] b) {
+        int n = a.length;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (a[i][j] != b[i][j]) return false;
+            }
+        }
+        return true;
+    }
+}
