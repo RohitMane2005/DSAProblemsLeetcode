@@ -170,3 +170,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - BFS using Queue for level-by-level tracking.
 - Recursive post-order traversal to calculate subtree heights and diameter.
 - Time: O(N), Space: O(H).
+
+### 📝 Practice Log: 2026-03-25 (2026-03-25 14:01:02 UTC)
+- **Topic**: `Bit Manipulation`
+- **Focus**: Bitwise operations: XOR single number & bit masking
+- XOR properties: x ^ x = 0, x ^ 0 = x.
+- Bitmask subsets generation.
+- Time: O(1) operations, Space: O(1).
