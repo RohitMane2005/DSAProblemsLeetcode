@@ -163,3 +163,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Identified subproblem recurrence: dp[i] = max(dp[i-1], dp[i-2] + val[i]).
 - Optimized space from O(N) to O(1) keeping two variables.
 - Time: O(N), Space: O(1).
+
+### 📝 Practice Log: 2026-03-25 (2026-03-25 13:31:53 UTC)
+- **Topic**: `Trees`
+- **Focus**: Binary Tree Level Order Traversal & Diameter
+- BFS using Queue for level-by-level tracking.
+- Recursive post-order traversal to calculate subtree heights and diameter.
+- Time: O(N), Space: O(H).
