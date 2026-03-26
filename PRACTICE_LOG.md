@@ -184,3 +184,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Maintained monotonic decreasing stack for nearest larger element.
 - Handled duplicate edge cases.
 - Time: O(N), Space: O(N).
+
+### 📝 Practice Log: 2026-03-26 (2026-03-26 16:42:06 UTC)
+- **Topic**: `Binary Search`
+- **Focus**: Binary Search on answer space and boundaries
+- Left-bound vs right-bound binary search implementations.
+- Monotonic search space verification.
+- Time: O(log N), Space: O(1).
