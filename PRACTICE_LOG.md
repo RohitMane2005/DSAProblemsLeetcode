@@ -205,3 +205,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - TrieNode with 26-child array and is_end_of_word flag.
 - Fast O(L) prefix lookup where L is word length.
 - Time: O(L), Space: O(ALPHABET_SIZE * N * L).
+
+### 📝 Practice Log: 2026-03-27 (2026-03-27 13:24:44 UTC)
+- **Topic**: `Binary Search`
+- **Focus**: Binary Search on answer space and boundaries
+- Left-bound vs right-bound binary search implementations.
+- Monotonic search space verification.
+- Time: O(log N), Space: O(1).
