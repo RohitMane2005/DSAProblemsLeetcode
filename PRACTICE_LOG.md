@@ -212,3 +212,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Left-bound vs right-bound binary search implementations.
 - Monotonic search space verification.
 - Time: O(log N), Space: O(1).
+
+### 📝 Practice Log: 2026-03-29 (2026-03-29 19:22:30 UTC)
+- **Topic**: `Binary Search`
+- **Focus**: Binary Search on answer space and boundaries
+- Left-bound vs right-bound binary search implementations.
+- Monotonic search space verification.
+- Time: O(log N), Space: O(1).
