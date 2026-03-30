@@ -14,19 +14,3 @@ class Solution {
        ListNode first = head;
        ListNode sec = head;
        ListNode current = head;
-       for(int i = 1; i< k; i++){
-        current = current.next;
-       }
-       first = current;
-       while(current.next != null){
-        current = current.next;
-        sec = sec.next;
-       }
-
-       int temp = first.val;
-       first.val = sec.val;
-       sec.val = temp;
-
-       return head;
-    }
-}
