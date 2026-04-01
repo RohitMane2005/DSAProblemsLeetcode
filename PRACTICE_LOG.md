@@ -219,3 +219,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Left-bound vs right-bound binary search implementations.
 - Monotonic search space verification.
 - Time: O(log N), Space: O(1).
+
+### 📝 Practice Log: 2026-04-01 (2026-04-01 10:20:14 UTC)
+- **Topic**: `Backtracking`
+- **Focus**: Permutations, Combinations & Subsets backtracking pattern
+- Decision tree traversal: choose -> explore -> un-choose.
+- Base conditions and pruning invalid search branches.
+- Time: O(2^N) or O(N!), Space: O(N) call stack.
