@@ -233,3 +233,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Sort by start/end time.
 - Greedy selection of non-overlapping intervals.
 - Time: O(N log N), Space: O(1) or O(N).
+
+### 📝 Practice Log: 2026-04-02 (2026-04-02 21:35:56 UTC)
+- **Topic**: `Binary Search Tree`
+- **Focus**: BST Validation and Inorder Traversal properties
+- Inorder traversal of valid BST yields strictly increasing sequence.
+- Maintained (min_val, max_val) bounding range recursively.
+- Time: O(N), Space: O(H).
