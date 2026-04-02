@@ -226,3 +226,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Decision tree traversal: choose -> explore -> un-choose.
 - Base conditions and pruning invalid search branches.
 - Time: O(2^N) or O(N!), Space: O(N) call stack.
+
+### 📝 Practice Log: 2026-04-02 (2026-04-02 16:20:10 UTC)
+- **Topic**: `Greedy`
+- **Focus**: Interval Scheduling & Merge Intervals
+- Sort by start/end time.
+- Greedy selection of non-overlapping intervals.
+- Time: O(N log N), Space: O(1) or O(N).
