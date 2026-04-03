@@ -240,3 +240,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Inorder traversal of valid BST yields strictly increasing sequence.
 - Maintained (min_val, max_val) bounding range recursively.
 - Time: O(N), Space: O(H).
+
+### 📝 Practice Log: 2026-04-03 (2026-04-03 14:53:02 UTC)
+- **Topic**: `Stack & Queue`
+- **Focus**: Monotonic Stack for Next Greater Element
+- Maintained monotonic decreasing stack for nearest larger element.
+- Handled duplicate edge cases.
+- Time: O(N), Space: O(N).
