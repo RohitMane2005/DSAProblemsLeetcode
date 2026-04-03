@@ -247,3 +247,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Maintained monotonic decreasing stack for nearest larger element.
 - Handled duplicate edge cases.
 - Time: O(N), Space: O(N).
+
+### 📝 Practice Log: 2026-04-03 (2026-04-03 17:25:52 UTC)
+- **Topic**: `Backtracking`
+- **Focus**: Permutations, Combinations & Subsets backtracking pattern
+- Decision tree traversal: choose -> explore -> un-choose.
+- Base conditions and pruning invalid search branches.
+- Time: O(2^N) or O(N!), Space: O(N) call stack.
