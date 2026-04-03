@@ -254,3 +254,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Decision tree traversal: choose -> explore -> un-choose.
 - Base conditions and pruning invalid search branches.
 - Time: O(2^N) or O(N!), Space: O(N) call stack.
+
+### 📝 Practice Log: 2026-04-03 (2026-04-03 20:53:33 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: 1D DP: House Robber & Fibonacci transitions
+- Identified subproblem recurrence: dp[i] = max(dp[i-1], dp[i-2] + val[i]).
+- Optimized space from O(N) to O(1) keeping two variables.
+- Time: O(N), Space: O(1).
