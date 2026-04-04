@@ -261,3 +261,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Identified subproblem recurrence: dp[i] = max(dp[i-1], dp[i-2] + val[i]).
 - Optimized space from O(N) to O(1) keeping two variables.
 - Time: O(N), Space: O(1).
+
+### 📝 Practice Log: 2026-04-04 (2026-04-04 21:11:08 UTC)
+- **Topic**: `Arrays & Hashing`
+- **Focus**: Two Pointers & Sliding Window techniques
+- Reviewed two-pointer convergence conditions.
+- Analyzed variable vs fixed window length invariants.
+- Time Complexity: O(N), Space Complexity: O(1).
