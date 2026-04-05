@@ -14,3 +14,20 @@ class Solution {
         temp.next = head;
 
         // Step 3: Reduce k
+        k = k % n;
+
+        // Step 4: Find new tail
+        int stepsToNewHead = n - k;
+        ListNode newTail = temp;
+
+        while (stepsToNewHead-- > 0) {
+            newTail = newTail.next;
+        }
+
+        // Step 5: Break circle
+        ListNode newHead = newTail.next;
+        newTail.next = null;
+
+        return newHead;
+    }
+}
