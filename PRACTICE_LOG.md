@@ -268,3 +268,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Reviewed two-pointer convergence conditions.
 - Analyzed variable vs fixed window length invariants.
 - Time Complexity: O(N), Space Complexity: O(1).
+
+### 📝 Practice Log: 2026-04-06 (2026-04-06 11:06:58 UTC)
+- **Topic**: `Trie (Prefix Tree)`
+- **Focus**: Prefix Tree insertion and search optimization
+- TrieNode with 26-child array and is_end_of_word flag.
+- Fast O(L) prefix lookup where L is word length.
+- Time: O(L), Space: O(ALPHABET_SIZE * N * L).
