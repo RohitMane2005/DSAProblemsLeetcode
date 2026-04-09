@@ -10,3 +10,16 @@ class Solution {
             if (head.val < x) {
                 before.next = head;
                 before = before.next;
+            } else {
+                after.next = head;
+                after = after.next;
+            }
+            head = head.next;
+        }
+        
+        after.next = null; // Important to avoid cycle
+        before.next = afterHead.next;
+        
+        return beforeHead.next;
+    }
+}
