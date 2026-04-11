@@ -8,16 +8,3 @@ class Solution {
         while (prev.next != null && prev.next.next != null) {
             ListNode first = prev.next;
             ListNode second = first.next;
-
-            // swapping
-            first.next = second.next;
-            second.next = first;
-            prev.next = second;
-
-            // move prev forward
-            prev = first;
-        }
-
-        return dummy.next;
-    }
-}
