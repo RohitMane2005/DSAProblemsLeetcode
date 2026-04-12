@@ -1022,3 +1022,9 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - In-degree array calculation and zero-indegree queue processing.
 - Cycle detection in Directed Acyclic Graphs (DAGs).
 - Time: O(V + E), Space: O(V).
+
+### 📝 Practice Log: 2026-04-12 (2026-04-12 16:43:29 UTC)
+- **Topic**: `Heaps / Priority Queue`
+- **Focus**: Top K Frequent Elements & Min-Heap / Max-Heap patterns
+- Maintained min-heap of size K to find top K largest elements.
+- Time: O(N log K), Space: O(K).
