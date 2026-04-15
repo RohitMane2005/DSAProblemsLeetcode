@@ -1028,3 +1028,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - **Focus**: Top K Frequent Elements & Min-Heap / Max-Heap patterns
 - Maintained min-heap of size K to find top K largest elements.
 - Time: O(N log K), Space: O(K).
+
+### 📝 Practice Log: 2026-04-15 (2026-04-15 15:07:28 UTC)
+- **Topic**: `Stack & Queue`
+- **Focus**: Monotonic Stack for Next Greater Element
+- Maintained monotonic decreasing stack for nearest larger element.
+- Handled duplicate edge cases.
+- Time: O(N), Space: O(N).
