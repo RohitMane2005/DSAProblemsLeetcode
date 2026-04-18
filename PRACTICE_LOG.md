@@ -296,3 +296,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Near-constant amortized time complexity O(alpha(N)) using inverse Ackermann.
 - Useful for dynamic connectivity and Kruskal's MST.
 - Time: O(alpha(N)), Space: O(N).
+
+### 📝 Practice Log: 2026-04-18 (2026-04-18 22:05:03 UTC)
+- **Topic**: `Trie (Prefix Tree)`
+- **Focus**: Prefix Tree insertion and search optimization
+- TrieNode with 26-child array and is_end_of_word flag.
+- Fast O(L) prefix lookup where L is word length.
+- Time: O(L), Space: O(ALPHABET_SIZE * N * L).
