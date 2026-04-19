@@ -317,3 +317,9 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Cycle detection in sequences and middle-element finder.
 - Step sizes: slow=1, fast=2.
 - Time Complexity: O(N), Space Complexity: O(1).
+
+### 📝 Practice Log: 2026-04-19 (2026-04-19 21:04:03 UTC)
+- **Topic**: `Heaps / Priority Queue`
+- **Focus**: Top K Frequent Elements & Min-Heap / Max-Heap patterns
+- Maintained min-heap of size K to find top K largest elements.
+- Time: O(N log K), Space: O(K).
