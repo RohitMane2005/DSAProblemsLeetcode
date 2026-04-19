@@ -310,3 +310,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - In-degree array calculation and zero-indegree queue processing.
 - Cycle detection in Directed Acyclic Graphs (DAGs).
 - Time: O(V + E), Space: O(V).
+
+### 📝 Practice Log: 2026-04-19 (2026-04-19 20:44:21 UTC)
+- **Topic**: `Two Pointers`
+- **Focus**: Fast and Slow Pointers pattern review
+- Cycle detection in sequences and middle-element finder.
+- Step sizes: slow=1, fast=2.
+- Time Complexity: O(N), Space Complexity: O(1).
