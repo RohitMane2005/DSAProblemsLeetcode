@@ -303,3 +303,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - TrieNode with 26-child array and is_end_of_word flag.
 - Fast O(L) prefix lookup where L is word length.
 - Time: O(L), Space: O(ALPHABET_SIZE * N * L).
+
+### 📝 Practice Log: 2026-04-19 (2026-04-19 16:33:46 UTC)
+- **Topic**: `Graphs`
+- **Focus**: Depth First Search (DFS) & Topological Sorting (Kahn's algorithm)
+- In-degree array calculation and zero-indegree queue processing.
+- Cycle detection in Directed Acyclic Graphs (DAGs).
+- Time: O(V + E), Space: O(V).
