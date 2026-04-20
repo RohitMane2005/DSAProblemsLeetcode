@@ -323,3 +323,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - **Focus**: Top K Frequent Elements & Min-Heap / Max-Heap patterns
 - Maintained min-heap of size K to find top K largest elements.
 - Time: O(N log K), Space: O(K).
+
+### 📝 Practice Log: 2026-04-20 (2026-04-20 09:39:46 UTC)
+- **Topic**: `Arrays & Hashing`
+- **Focus**: Two Pointers & Sliding Window techniques
+- Reviewed two-pointer convergence conditions.
+- Analyzed variable vs fixed window length invariants.
+- Time Complexity: O(N), Space Complexity: O(1).
