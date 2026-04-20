@@ -330,3 +330,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Reviewed two-pointer convergence conditions.
 - Analyzed variable vs fixed window length invariants.
 - Time Complexity: O(N), Space Complexity: O(1).
+
+### 📝 Practice Log: 2026-04-20 (2026-04-20 11:16:18 UTC)
+- **Topic**: `Trees`
+- **Focus**: Binary Tree Level Order Traversal & Diameter
+- BFS using Queue for level-by-level tracking.
+- Recursive post-order traversal to calculate subtree heights and diameter.
+- Time: O(N), Space: O(H).
