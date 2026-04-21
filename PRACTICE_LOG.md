@@ -351,3 +351,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - 2D grid DP table for LCS.
 - Binary search patient sorting O(N log N) optimization for LIS.
 - Time: O(N log N), Space: O(N).
+
+### 📝 Practice Log: 2026-04-21 (2026-04-21 10:30:21 UTC)
+- **Topic**: `Binary Search`
+- **Focus**: Binary Search on answer space and boundaries
+- Left-bound vs right-bound binary search implementations.
+- Monotonic search space verification.
+- Time: O(log N), Space: O(1).
