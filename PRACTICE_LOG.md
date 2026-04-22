@@ -372,3 +372,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - BFS using Queue for level-by-level tracking.
 - Recursive post-order traversal to calculate subtree heights and diameter.
 - Time: O(N), Space: O(H).
+
+### 📝 Practice Log: 2026-04-22 (2026-04-22 12:23:39 UTC)
+- **Topic**: `Binary Search Tree`
+- **Focus**: BST Validation and Inorder Traversal properties
+- Inorder traversal of valid BST yields strictly increasing sequence.
+- Maintained (min_val, max_val) bounding range recursively.
+- Time: O(N), Space: O(H).
