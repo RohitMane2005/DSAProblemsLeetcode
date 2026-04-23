@@ -386,3 +386,9 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - BFS using Queue for level-by-level tracking.
 - Recursive post-order traversal to calculate subtree heights and diameter.
 - Time: O(N), Space: O(H).
+
+### 📝 Practice Log: 2026-04-23 (2026-04-23 19:05:40 UTC)
+- **Topic**: `Graphs`
+- **Focus**: Breadth First Search (BFS) for shortest path in unweighted graph
+- Queue-based frontier expansion with visited set to prevent infinite cycles.
+- Time: O(V + E), Space: O(V).
