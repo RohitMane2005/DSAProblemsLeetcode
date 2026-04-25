@@ -399,3 +399,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - In-degree array calculation and zero-indegree queue processing.
 - Cycle detection in Directed Acyclic Graphs (DAGs).
 - Time: O(V + E), Space: O(V).
+
+### 📝 Practice Log: 2026-04-25 (2026-04-25 11:40:10 UTC)
+- **Topic**: `Arrays & Hashing`
+- **Focus**: Two Pointers & Sliding Window techniques
+- Reviewed two-pointer convergence conditions.
+- Analyzed variable vs fixed window length invariants.
+- Time Complexity: O(N), Space Complexity: O(1).
