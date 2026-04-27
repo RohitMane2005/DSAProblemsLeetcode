@@ -406,3 +406,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Reviewed two-pointer convergence conditions.
 - Analyzed variable vs fixed window length invariants.
 - Time Complexity: O(N), Space Complexity: O(1).
+
+### 📝 Practice Log: 2026-04-27 (2026-04-27 17:38:11 UTC)
+- **Topic**: `Disjoint Set Union`
+- **Focus**: Union-Find with Path Compression and Union by Rank
+- Near-constant amortized time complexity O(alpha(N)) using inverse Ackermann.
+- Useful for dynamic connectivity and Kruskal's MST.
+- Time: O(alpha(N)), Space: O(N).
