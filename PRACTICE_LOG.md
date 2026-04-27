@@ -413,3 +413,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Near-constant amortized time complexity O(alpha(N)) using inverse Ackermann.
 - Useful for dynamic connectivity and Kruskal's MST.
 - Time: O(alpha(N)), Space: O(N).
+
+### 📝 Practice Log: 2026-04-27 (2026-04-27 18:37:57 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: 0/1 Knapsack & Unbounded Knapsack memoization
+- State representation dp[index][capacity].
+- Space optimization to single 1D array iterating backwards.
+- Time: O(N * W), Space: O(W).
