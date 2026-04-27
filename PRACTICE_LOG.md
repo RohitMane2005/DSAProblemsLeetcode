@@ -420,3 +420,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - State representation dp[index][capacity].
 - Space optimization to single 1D array iterating backwards.
 - Time: O(N * W), Space: O(W).
+
+### 📝 Practice Log: 2026-04-27 (2026-04-27 18:53:34 UTC)
+- **Topic**: `Two Pointers`
+- **Focus**: Fast and Slow Pointers pattern review
+- Cycle detection in sequences and middle-element finder.
+- Step sizes: slow=1, fast=2.
+- Time Complexity: O(N), Space Complexity: O(1).
