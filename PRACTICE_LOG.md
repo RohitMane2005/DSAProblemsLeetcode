@@ -441,3 +441,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Cycle detection in sequences and middle-element finder.
 - Step sizes: slow=1, fast=2.
 - Time Complexity: O(N), Space Complexity: O(1).
+
+### 📝 Practice Log: 2026-04-28 (2026-04-28 21:54:06 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: 1D DP: House Robber & Fibonacci transitions
+- Identified subproblem recurrence: dp[i] = max(dp[i-1], dp[i-2] + val[i]).
+- Optimized space from O(N) to O(1) keeping two variables.
+- Time: O(N), Space: O(1).
