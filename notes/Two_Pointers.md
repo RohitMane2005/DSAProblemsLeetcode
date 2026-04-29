@@ -10,3 +10,9 @@ Curated algorithm patterns, recurrence relations, and complexity notes.
 - Cycle detection in sequences and middle-element finder (Floyd's algorithm).
 - Step sizes: slow=1, fast=2.
 - Time Complexity: O(N), Space Complexity: O(1).
+
+## 📌 Session: 2026-04-29 (2026-04-29 10:06:50 UTC)
+### Fast and Slow Pointers pattern review
+- Cycle detection in sequences and middle-element finder (Floyd's algorithm).
+- Step sizes: slow=1, fast=2.
+- Time Complexity: O(N), Space Complexity: O(1).
