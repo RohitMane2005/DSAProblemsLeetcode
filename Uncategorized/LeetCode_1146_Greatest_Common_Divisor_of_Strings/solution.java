@@ -10,3 +10,16 @@ class Solution {
         int gcdLen = gcd(str1.length(), str2.length());
 
         // Return substring of gcd length
+        return str1.substring(0, gcdLen);
+    }
+
+    // Euclidean Algorithm
+    private int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+}
