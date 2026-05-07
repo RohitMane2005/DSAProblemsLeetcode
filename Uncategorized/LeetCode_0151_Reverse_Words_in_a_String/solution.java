@@ -7,3 +7,13 @@ class Solution {
         
         while(left < right){
             String temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            
+            left++;
+            right--;
+        }
+        
+        return String.join(" ", arr);
+    }
+}
