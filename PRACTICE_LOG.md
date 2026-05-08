@@ -448,3 +448,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Identified subproblem recurrence: dp[i] = max(dp[i-1], dp[i-2] + val[i]).
 - Optimized space from O(N) to O(1) keeping two variables.
 - Time: O(N), Space: O(1).
+
+### 📝 Practice Log: 2026-05-08 (2026-05-08 17:47:32 UTC)
+- **Topic**: `Graphs`
+- **Focus**: Depth First Search (DFS) & Topological Sorting (Kahn's algorithm)
+- In-degree array calculation and zero-indegree queue processing.
+- Cycle detection in Directed Acyclic Graphs (DAGs).
+- Time: O(V + E), Space: O(V).
