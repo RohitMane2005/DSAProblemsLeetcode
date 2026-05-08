@@ -455,3 +455,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - In-degree array calculation and zero-indegree queue processing.
 - Cycle detection in Directed Acyclic Graphs (DAGs).
 - Time: O(V + E), Space: O(V).
+
+### 📝 Practice Log: 2026-05-08 (2026-05-08 20:12:31 UTC)
+- **Topic**: `Bit Manipulation`
+- **Focus**: Bitwise operations: XOR single number & bit masking
+- XOR properties: x ^ x = 0, x ^ 0 = x.
+- Bitmask subsets generation.
+- Time: O(1) operations, Space: O(1).
