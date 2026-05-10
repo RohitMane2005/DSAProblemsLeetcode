@@ -10,3 +10,16 @@ class Solution {
             sb.append(word2.charAt(j++));
         }
         
+        // Append the remaining part of word1 (if any)
+        if (i < word1.length()) {
+            sb.append(word1.substring(i));
+        }
+        
+        // Append the remaining part of word2 (if any)
+        if (j < word2.length()) {
+            sb.append(word2.substring(j));
+        }
+        
+        return sb.toString();
+    }
+}
