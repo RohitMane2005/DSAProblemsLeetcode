@@ -12,3 +12,19 @@ class Solution {
         }
 
         int left = 0;
+
+        for(int right = 0; right < s2.length(); right++){
+            windowCount[s2.charAt(right) - 'a']++;
+
+            if(right - left + 1 > s1.length()){
+                windowCount[s2.charAt(left)-'a']--;
+                left++;
+            }
+
+            if(Arrays.equals(s1Count,windowCount)){
+                return true;
+            }
+        }
+        return false;
+    }
+}
