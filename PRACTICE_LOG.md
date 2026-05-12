@@ -462,3 +462,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - XOR properties: x ^ x = 0, x ^ 0 = x.
 - Bitmask subsets generation.
 - Time: O(1) operations, Space: O(1).
+
+### 📝 Practice Log: 2026-05-12 (2026-05-12 22:31:11 UTC)
+- **Topic**: `Greedy`
+- **Focus**: Interval Scheduling & Merge Intervals
+- Sort by start/end time.
+- Greedy selection of non-overlapping intervals.
+- Time: O(N log N), Space: O(1) or O(N).
