@@ -483,3 +483,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Cycle detection in sequences and middle-element finder.
 - Step sizes: slow=1, fast=2.
 - Time Complexity: O(N), Space Complexity: O(1).
+
+### 📝 Practice Log: 2026-05-13 (2026-05-13 21:45:20 UTC)
+- **Topic**: `Bit Manipulation`
+- **Focus**: Bitwise operations: XOR single number & bit masking
+- XOR properties: x ^ x = 0, x ^ 0 = x.
+- Bitmask subsets generation.
+- Time: O(1) operations, Space: O(1).
