@@ -469,3 +469,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Sort by start/end time.
 - Greedy selection of non-overlapping intervals.
 - Time: O(N log N), Space: O(1) or O(N).
+
+### 📝 Practice Log: 2026-05-13 (2026-05-13 20:10:33 UTC)
+- **Topic**: `Greedy`
+- **Focus**: Interval Scheduling & Merge Intervals
+- Sort by start/end time.
+- Greedy selection of non-overlapping intervals.
+- Time: O(N log N), Space: O(1) or O(N).
