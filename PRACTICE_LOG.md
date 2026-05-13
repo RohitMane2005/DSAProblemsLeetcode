@@ -476,3 +476,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Sort by start/end time.
 - Greedy selection of non-overlapping intervals.
 - Time: O(N log N), Space: O(1) or O(N).
+
+### 📝 Practice Log: 2026-05-13 (2026-05-13 20:40:04 UTC)
+- **Topic**: `Two Pointers`
+- **Focus**: Fast and Slow Pointers pattern review
+- Cycle detection in sequences and middle-element finder.
+- Step sizes: slow=1, fast=2.
+- Time Complexity: O(N), Space Complexity: O(1).
