@@ -497,3 +497,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Identified subproblem recurrence: dp[i] = max(dp[i-1], dp[i-2] + val[i]).
 - Optimized space from O(N) to O(1) keeping two variables.
 - Time: O(N), Space: O(1).
+
+### 📝 Practice Log: 2026-05-14 (2026-05-14 21:22:50 UTC)
+- **Topic**: `Backtracking`
+- **Focus**: Permutations, Combinations & Subsets backtracking pattern
+- Decision tree traversal: choose -> explore -> un-choose.
+- Base conditions and pruning invalid search branches.
+- Time: O(2^N) or O(N!), Space: O(N) call stack.
