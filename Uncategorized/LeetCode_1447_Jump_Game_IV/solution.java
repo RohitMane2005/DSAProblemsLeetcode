@@ -33,3 +33,38 @@ class Solution {
                 if (curr == n - 1) {
                     return steps;
                 }
+
+                // jump to curr - 1
+                if (curr - 1 >= 0 && !visited[curr - 1]) {
+                    visited[curr - 1] = true;
+                    q.offer(curr - 1);
+                }
+
+                // jump to curr + 1
+                if (curr + 1 < n && !visited[curr + 1]) {
+                    visited[curr + 1] = true;
+                    q.offer(curr + 1);
+                }
+
+                // jump to same value indices
+                if (map.containsKey(arr[curr])) {
+
+                    for (int next : map.get(arr[curr])) {
+
+                        if (!visited[next]) {
+                            visited[next] = true;
+                            q.offer(next);
+                        }
+                    }
+
+                    // IMPORTANT optimization
+                    map.remove(arr[curr]);
+                }
+            }
+
+            steps++;
+        }
+
+        return -1;
+    }
+}
