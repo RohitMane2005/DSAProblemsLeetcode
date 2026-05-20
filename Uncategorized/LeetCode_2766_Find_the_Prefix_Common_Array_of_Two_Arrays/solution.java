@@ -13,3 +13,18 @@ class Solution {
             freq[A[i]]++;
 
             if (freq[A[i]] == 2) {
+                common++;
+            }
+
+            freq[B[i]]++;
+
+            if (freq[B[i]] == 2) {
+                common++;
+            }
+
+            ans[i] = common;
+        }
+
+        return ans;
+    }
+}
