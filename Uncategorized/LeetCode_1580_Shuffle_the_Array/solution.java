@@ -5,12 +5,3 @@ class Solution {
         int left = 0;
         int right = n;
         int i = 0;
-
-        while (right < x) {
-            ans[i++] = nums[left++];
-            ans[i++] = nums[right++];
-        }
-
-        return ans;
-    }
-}
