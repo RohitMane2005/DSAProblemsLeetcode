@@ -511,3 +511,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - State representation dp[index][capacity].
 - Space optimization to single 1D array iterating backwards.
 - Time: O(N * W), Space: O(W).
+
+### 📝 Practice Log: 2026-05-29 (2026-05-29 12:15:06 UTC)
+- **Topic**: `Binary Search`
+- **Focus**: Binary Search on answer space and boundaries
+- Left-bound vs right-bound binary search implementations.
+- Monotonic search space verification.
+- Time: O(log N), Space: O(1).
