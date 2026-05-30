@@ -532,3 +532,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - XOR properties: x ^ x = 0, x ^ 0 = x.
 - Bitmask subsets generation.
 - Time: O(1) operations, Space: O(1).
+
+### 📝 Practice Log: 2026-05-30 (2026-05-30 17:58:57 UTC)
+- **Topic**: `Two Pointers`
+- **Focus**: Fast and Slow Pointers pattern review
+- Cycle detection in sequences and middle-element finder.
+- Step sizes: slow=1, fast=2.
+- Time Complexity: O(N), Space Complexity: O(1).
