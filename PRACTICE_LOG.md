@@ -546,3 +546,9 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - XOR properties: x ^ x = 0, x ^ 0 = x.
 - Bitmask subsets generation.
 - Time: O(1) operations, Space: O(1).
+
+### 📝 Practice Log: 2026-05-31 (2026-05-31 12:15:36 UTC)
+- **Topic**: `Graphs`
+- **Focus**: Breadth First Search (BFS) for shortest path in unweighted graph
+- Queue-based frontier expansion with visited set to prevent infinite cycles.
+- Time: O(V + E), Space: O(V).
