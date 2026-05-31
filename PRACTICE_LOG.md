@@ -552,3 +552,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - **Focus**: Breadth First Search (BFS) for shortest path in unweighted graph
 - Queue-based frontier expansion with visited set to prevent infinite cycles.
 - Time: O(V + E), Space: O(V).
+
+### 📝 Practice Log: 2026-05-31 (2026-05-31 15:21:02 UTC)
+- **Topic**: `Backtracking`
+- **Focus**: Permutations, Combinations & Subsets backtracking pattern
+- Decision tree traversal: choose -> explore -> un-choose.
+- Base conditions and pruning invalid search branches.
+- Time: O(2^N) or O(N!), Space: O(N) call stack.
