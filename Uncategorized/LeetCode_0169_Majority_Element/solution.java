@@ -9,15 +9,3 @@ class Solution {
         // Stop before the last element to prevent Out of Bounds error
         for (int i = 0; i < nums.length - 1; i++) {
             if (nums[i] == nums[i + 1]) {
-                count++;
-                if (count > maxCount) {
-                    maxCount = count;
-                    ans = nums[i];
-                }
-            } else {
-                count = 1; // Reset count for the next unique number
-            }
-        }
-        return ans;
-    }
-}
