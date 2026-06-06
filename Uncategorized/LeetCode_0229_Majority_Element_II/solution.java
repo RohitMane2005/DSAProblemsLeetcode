@@ -12,3 +12,17 @@ class Solution {
                 count++;
             } else {
                 if (count > n / 3) {
+                    ans.add(nums[i - 1]);
+                }
+                count = 1;
+            }
+        }
+
+        // Check last element group
+        if (count > n / 3) {
+            ans.add(nums[n - 1]);
+        }
+
+        return ans;
+    }
+}
