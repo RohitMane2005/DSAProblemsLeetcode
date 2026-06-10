@@ -11,3 +11,17 @@ class Solution {
         // Move fast n+1 steps
         for (int i = 0; i <= n; i++) {
             fast = fast.next;
+        }
+
+        // Move both
+        while (fast != null) {
+            fast = fast.next;
+            slow = slow.next;
+        }
+
+        // Delete node
+        slow.next = slow.next.next;
+
+        return dummy.next;
+    }
+}
