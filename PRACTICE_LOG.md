@@ -566,3 +566,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Cycle detection in sequences and middle-element finder.
 - Step sizes: slow=1, fast=2.
 - Time Complexity: O(N), Space Complexity: O(1).
+
+### 📝 Practice Log: 2026-06-12 (2026-06-12 20:55:26 UTC)
+- **Topic**: `Graphs`
+- **Focus**: Depth First Search (DFS) & Topological Sorting (Kahn's algorithm)
+- In-degree array calculation and zero-indegree queue processing.
+- Cycle detection in Directed Acyclic Graphs (DAGs).
+- Time: O(V + E), Space: O(V).
