@@ -16,3 +16,9 @@ Curated algorithm patterns, recurrence relations, and complexity notes.
 - Decision tree traversal: choose -> explore -> un-choose.
 - Base conditions and pruning invalid search branches.
 - Time: O(2^N) or O(N!), Space: O(N) call stack.
+
+## 📌 Session: 2026-06-14 (2026-06-14 11:23:49 UTC)
+### Permutations, Combinations & Subsets backtracking pattern
+- Decision tree traversal: choose -> explore -> un-choose.
+- Base conditions and pruning invalid search branches.
+- Time: O(2^N) or O(N!), Space: O(N) call stack.
