@@ -1056,3 +1056,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Identified subproblem recurrence: dp[i] = max(dp[i-1], dp[i-2] + val[i]).
 - Optimized space from O(N) to O(1) keeping running state variables.
 - Time: O(N), Space: O(1).
+
+### 📝 Practice Log: 2026-06-14 (2026-06-14 17:55:21 UTC)
+- **Topic**: `Stack & Queue`
+- **Focus**: Monotonic Stack for Next Greater Element
+- Maintained monotonic decreasing stack for nearest larger element.
+- Handled duplicate edge cases.
+- Time: O(N), Space: O(N).
