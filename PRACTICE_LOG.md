@@ -579,3 +579,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - **Focus**: Top K Frequent Elements & Min-Heap / Max-Heap patterns
 - Maintained min-heap of size K to find top K largest elements.
 - Time: O(N log K), Space: O(K).
+
+### 📝 Practice Log: 2026-06-15 (2026-06-15 10:48:09 UTC)
+- **Topic**: `Binary Search Tree`
+- **Focus**: BST Validation and Inorder Traversal properties
+- Inorder traversal of valid BST yields strictly increasing sequence.
+- Maintained (min_val, max_val) bounding range recursively.
+- Time: O(N), Space: O(H).
