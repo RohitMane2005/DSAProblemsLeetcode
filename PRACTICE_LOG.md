@@ -586,3 +586,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Inorder traversal of valid BST yields strictly increasing sequence.
 - Maintained (min_val, max_val) bounding range recursively.
 - Time: O(N), Space: O(H).
+
+### 📝 Practice Log: 2026-06-15 (2026-06-15 12:39:29 UTC)
+- **Topic**: `Two Pointers`
+- **Focus**: Fast and Slow Pointers pattern review
+- Cycle detection in sequences and middle-element finder.
+- Step sizes: slow=1, fast=2.
+- Time Complexity: O(N), Space Complexity: O(1).
