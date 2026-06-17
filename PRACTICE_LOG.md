@@ -606,3 +606,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - **Focus**: Breadth First Search (BFS) for shortest path in unweighted graph
 - Queue-based frontier expansion with visited set to prevent infinite cycles.
 - Time: O(V + E), Space: O(V).
+
+### 📝 Practice Log: 2026-06-17 (2026-06-17 14:04:10 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: 1D DP: House Robber & Fibonacci transitions
+- Identified subproblem recurrence: dp[i] = max(dp[i-1], dp[i-2] + val[i]).
+- Optimized space from O(N) to O(1) keeping two variables.
+- Time: O(N), Space: O(1).
