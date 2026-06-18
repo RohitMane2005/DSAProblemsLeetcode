@@ -613,3 +613,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Identified subproblem recurrence: dp[i] = max(dp[i-1], dp[i-2] + val[i]).
 - Optimized space from O(N) to O(1) keeping two variables.
 - Time: O(N), Space: O(1).
+
+### 📝 Practice Log: 2026-06-18 (2026-06-18 10:12:27 UTC)
+- **Topic**: `Linked List`
+- **Focus**: Reversal of sub-list & Sentinel Head node technique
+- In-place pointer manipulation without extra memory allocation.
+- Handled single-node and cycle edge cases.
+- Time: O(N), Space: O(1).
