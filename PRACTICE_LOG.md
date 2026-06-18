@@ -620,3 +620,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - In-place pointer manipulation without extra memory allocation.
 - Handled single-node and cycle edge cases.
 - Time: O(N), Space: O(1).
+
+### 📝 Practice Log: 2026-06-18 (2026-06-18 13:14:45 UTC)
+- **Topic**: `Disjoint Set Union`
+- **Focus**: Union-Find with Path Compression and Union by Rank
+- Near-constant amortized time complexity O(alpha(N)) using inverse Ackermann.
+- Useful for dynamic connectivity and Kruskal's MST.
+- Time: O(alpha(N)), Space: O(N).
