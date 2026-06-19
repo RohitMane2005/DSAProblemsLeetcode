@@ -634,3 +634,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - 2D grid DP table for LCS.
 - Binary search patient sorting O(N log N) optimization for LIS.
 - Time: O(N log N), Space: O(N).
+
+### 📝 Practice Log: 2026-06-19 (2026-06-19 20:03:49 UTC)
+- **Topic**: `Greedy`
+- **Focus**: Interval Scheduling & Merge Intervals
+- Sort by start/end time.
+- Greedy selection of non-overlapping intervals.
+- Time: O(N log N), Space: O(1) or O(N).
