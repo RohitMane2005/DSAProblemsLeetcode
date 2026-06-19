@@ -641,3 +641,9 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Sort by start/end time.
 - Greedy selection of non-overlapping intervals.
 - Time: O(N log N), Space: O(1) or O(N).
+
+### 📝 Practice Log: 2026-06-19 (2026-06-19 22:55:39 UTC)
+- **Topic**: `Heaps / Priority Queue`
+- **Focus**: Top K Frequent Elements & Min-Heap / Max-Heap patterns
+- Maintained min-heap of size K to find top K largest elements.
+- Time: O(N log K), Space: O(K).
