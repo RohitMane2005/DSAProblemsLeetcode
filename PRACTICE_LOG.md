@@ -647,3 +647,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - **Focus**: Top K Frequent Elements & Min-Heap / Max-Heap patterns
 - Maintained min-heap of size K to find top K largest elements.
 - Time: O(N log K), Space: O(K).
+
+### 📝 Practice Log: 2026-06-20 (2026-06-20 21:54:14 UTC)
+- **Topic**: `Backtracking`
+- **Focus**: Permutations, Combinations & Subsets backtracking pattern
+- Decision tree traversal: choose -> explore -> un-choose.
+- Base conditions and pruning invalid search branches.
+- Time: O(2^N) or O(N!), Space: O(N) call stack.
