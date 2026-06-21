@@ -654,3 +654,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Decision tree traversal: choose -> explore -> un-choose.
 - Base conditions and pruning invalid search branches.
 - Time: O(2^N) or O(N!), Space: O(N) call stack.
+
+### 📝 Practice Log: 2026-06-21 (2026-06-21 20:41:43 UTC)
+- **Topic**: `Trees`
+- **Focus**: Binary Tree Level Order Traversal & Diameter
+- BFS using Queue for level-by-level tracking.
+- Recursive post-order traversal to calculate subtree heights and diameter.
+- Time: O(N), Space: O(H).
