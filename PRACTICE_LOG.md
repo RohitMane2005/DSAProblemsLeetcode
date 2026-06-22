@@ -661,3 +661,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - BFS using Queue for level-by-level tracking.
 - Recursive post-order traversal to calculate subtree heights and diameter.
 - Time: O(N), Space: O(H).
+
+### 📝 Practice Log: 2026-06-22 (2026-06-22 15:51:10 UTC)
+- **Topic**: `Greedy`
+- **Focus**: Interval Scheduling & Merge Intervals
+- Sort by start/end time.
+- Greedy selection of non-overlapping intervals.
+- Time: O(N log N), Space: O(1) or O(N).
