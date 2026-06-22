@@ -675,3 +675,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Maintained monotonic decreasing stack for nearest larger element.
 - Handled duplicate edge cases.
 - Time: O(N), Space: O(N).
+
+### 📝 Practice Log: 2026-06-22 (2026-06-22 21:31:07 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: 0/1 Knapsack & Unbounded Knapsack memoization
+- State representation dp[index][capacity].
+- Space optimization to single 1D array iterating backwards.
+- Time: O(N * W), Space: O(W).
