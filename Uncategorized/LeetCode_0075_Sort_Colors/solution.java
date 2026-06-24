@@ -10,15 +10,3 @@ class Solution {
                 arr[left] = temp;
                 mid++;
                 left++;
-            }else if(arr[mid] == 1){
-                mid++;
-            }else{
-                int temp = arr[mid];
-                arr[mid] = arr[right];
-                arr[right] = temp;
-                right--;
-            }
-        }
-        
-    }
-}
