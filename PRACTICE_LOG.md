@@ -682,3 +682,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - State representation dp[index][capacity].
 - Space optimization to single 1D array iterating backwards.
 - Time: O(N * W), Space: O(W).
+
+### 📝 Practice Log: 2026-06-25 (2026-06-25 22:23:27 UTC)
+- **Topic**: `Linked List`
+- **Focus**: Reversal of sub-list & Sentinel Head node technique
+- In-place pointer manipulation without extra memory allocation.
+- Handled single-node and cycle edge cases.
+- Time: O(N), Space: O(1).
