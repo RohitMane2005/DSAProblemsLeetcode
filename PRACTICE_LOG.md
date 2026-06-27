@@ -696,3 +696,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Sort by start/end time.
 - Greedy selection of non-overlapping intervals.
 - Time: O(N log N), Space: O(1) or O(N).
+
+### 📝 Practice Log: 2026-06-27 (2026-06-27 19:42:58 UTC)
+- **Topic**: `Trie (Prefix Tree)`
+- **Focus**: Prefix Tree insertion and search optimization
+- TrieNode with 26-child array and is_end_of_word flag.
+- Fast O(L) prefix lookup where L is word length.
+- Time: O(L), Space: O(ALPHABET_SIZE * N * L).
