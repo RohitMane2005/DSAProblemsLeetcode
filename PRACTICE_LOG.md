@@ -689,3 +689,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - In-place pointer manipulation without extra memory allocation.
 - Handled single-node and cycle edge cases.
 - Time: O(N), Space: O(1).
+
+### 📝 Practice Log: 2026-06-27 (2026-06-27 10:43:20 UTC)
+- **Topic**: `Greedy`
+- **Focus**: Interval Scheduling & Merge Intervals
+- Sort by start/end time.
+- Greedy selection of non-overlapping intervals.
+- Time: O(N log N), Space: O(1) or O(N).
