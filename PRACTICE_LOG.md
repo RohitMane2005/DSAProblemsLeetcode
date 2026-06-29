@@ -1063,3 +1063,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Maintained monotonic decreasing stack for nearest larger element.
 - Handled duplicate edge cases.
 - Time: O(N), Space: O(N).
+
+### 📝 Practice Log: 2026-06-29 (2026-06-29 11:35:48 UTC)
+- **Topic**: `Trees & BST`
+- **Focus**: Binary Tree Level Order Traversal & BST Validation
+- BFS using Queue for level-by-level tracking.
+- Recursive inorder traversal with bounding range (min_val, max_val).
+- Time: O(N), Space: O(H).
