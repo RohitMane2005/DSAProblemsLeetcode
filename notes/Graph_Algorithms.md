@@ -16,3 +16,9 @@ Curated algorithm patterns, recurrence relations, and complexity notes.
 - In-degree array calculation and zero-indegree queue processing.
 - Cycle detection in Directed Acyclic Graphs (DAGs).
 - Time: O(V + E), Space: O(V).
+
+## 📌 Session: 2026-06-29 (2026-06-29 19:53:17 UTC)
+### BFS & Kahn's Topological Sorting for DAGs
+- In-degree array calculation and zero-indegree queue processing.
+- Cycle detection in Directed Acyclic Graphs (DAGs).
+- Time: O(V + E), Space: O(V).
