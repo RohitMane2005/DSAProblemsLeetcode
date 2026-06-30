@@ -710,3 +710,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Reviewed two-pointer convergence conditions.
 - Analyzed variable vs fixed window length invariants.
 - Time Complexity: O(N), Space Complexity: O(1).
+
+### 📝 Practice Log: 2026-06-30 (2026-06-30 17:38:57 UTC)
+- **Topic**: `Backtracking`
+- **Focus**: Permutations, Combinations & Subsets backtracking pattern
+- Decision tree traversal: choose -> explore -> un-choose.
+- Base conditions and pruning invalid search branches.
+- Time: O(2^N) or O(N!), Space: O(N) call stack.
