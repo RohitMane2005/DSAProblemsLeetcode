@@ -717,3 +717,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Decision tree traversal: choose -> explore -> un-choose.
 - Base conditions and pruning invalid search branches.
 - Time: O(2^N) or O(N!), Space: O(N) call stack.
+
+### 📝 Practice Log: 2026-07-02 (2026-07-02 09:15:14 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: 0/1 Knapsack & Unbounded Knapsack memoization
+- State representation dp[index][capacity].
+- Space optimization to single 1D array iterating backwards.
+- Time: O(N * W), Space: O(W).
