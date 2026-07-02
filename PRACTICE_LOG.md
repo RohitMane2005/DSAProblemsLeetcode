@@ -724,3 +724,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - State representation dp[index][capacity].
 - Space optimization to single 1D array iterating backwards.
 - Time: O(N * W), Space: O(W).
+
+### 📝 Practice Log: 2026-07-02 (2026-07-02 11:05:44 UTC)
+- **Topic**: `Greedy`
+- **Focus**: Interval Scheduling & Merge Intervals
+- Sort by start/end time.
+- Greedy selection of non-overlapping intervals.
+- Time: O(N log N), Space: O(1) or O(N).
