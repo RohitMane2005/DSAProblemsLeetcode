@@ -14,19 +14,3 @@ class Solution {
             
             // If we have more than 2 types of fruits, shrink the window from the left
             while (count.size() > 2) {
-                int leftFruit = fruits[left];
-                count.put(leftFruit, count.get(leftFruit) - 1);
-                
-                if (count.get(leftFruit) == 0) {
-                    count.remove(leftFruit);
-                }
-                left++; // Move the left pointer forward
-            }
-            
-            // Update the maximum fruits collected so far
-            maxFruits = Math.max(maxFruits, right - left + 1);
-        }
-        
-        return maxFruits;
-    }
-}
