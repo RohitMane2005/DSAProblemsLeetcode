@@ -1070,3 +1070,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - BFS using Queue for level-by-level tracking.
 - Recursive inorder traversal with bounding range (min_val, max_val).
 - Time: O(N), Space: O(H).
+
+### 📝 Practice Log: 2026-07-04 (2026-07-04 14:39:26 UTC)
+- **Topic**: `Binary Search`
+- **Focus**: Binary Search on answer space and boundaries
+- Left-bound vs right-bound binary search implementations.
+- Monotonic search space verification.
+- Time: O(log N), Space: O(1).
