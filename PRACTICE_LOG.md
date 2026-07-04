@@ -1077,3 +1077,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Left-bound vs right-bound binary search implementations.
 - Monotonic search space verification.
 - Time: O(log N), Space: O(1).
+
+### 📝 Practice Log: 2026-07-04 (2026-07-04 19:15:42 UTC)
+- **Topic**: `Bit Manipulation`
+- **Focus**: Bitwise operations: XOR single number & bit masking
+- XOR properties: x ^ x = 0, x ^ 0 = x.
+- Bitmask subsets generation.
+- Time: O(1) operations, Space: O(1).
