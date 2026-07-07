@@ -745,3 +745,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Left-bound vs right-bound binary search implementations.
 - Monotonic search space verification.
 - Time: O(log N), Space: O(1).
+
+### 📝 Practice Log: 2026-07-07 (2026-07-07 20:13:14 UTC)
+- **Topic**: `Disjoint Set Union`
+- **Focus**: Union-Find with Path Compression and Union by Rank
+- Near-constant amortized time complexity O(alpha(N)) using inverse Ackermann.
+- Useful for dynamic connectivity and Kruskal's MST.
+- Time: O(alpha(N)), Space: O(N).
