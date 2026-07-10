@@ -780,3 +780,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - BFS using Queue for level-by-level tracking.
 - Recursive post-order traversal to calculate subtree heights and diameter.
 - Time: O(N), Space: O(H).
+
+### 📝 Practice Log: 2026-07-10 (2026-07-10 21:30:42 UTC)
+- **Topic**: `Disjoint Set Union`
+- **Focus**: Union-Find with Path Compression and Union by Rank
+- Near-constant amortized time complexity O(alpha(N)) using inverse Ackermann.
+- Useful for dynamic connectivity and Kruskal's MST.
+- Time: O(alpha(N)), Space: O(N).
