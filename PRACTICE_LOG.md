@@ -773,3 +773,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - XOR properties: x ^ x = 0, x ^ 0 = x.
 - Bitmask subsets generation.
 - Time: O(1) operations, Space: O(1).
+
+### 📝 Practice Log: 2026-07-10 (2026-07-10 13:19:02 UTC)
+- **Topic**: `Trees`
+- **Focus**: Binary Tree Level Order Traversal & Diameter
+- BFS using Queue for level-by-level tracking.
+- Recursive post-order traversal to calculate subtree heights and diameter.
+- Time: O(N), Space: O(H).
