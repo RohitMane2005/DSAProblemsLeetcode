@@ -787,3 +787,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Near-constant amortized time complexity O(alpha(N)) using inverse Ackermann.
 - Useful for dynamic connectivity and Kruskal's MST.
 - Time: O(alpha(N)), Space: O(N).
+
+### 📝 Practice Log: 2026-07-11 (2026-07-11 14:15:08 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: Longest Common Subsequence & Longest Increasing Subsequence
+- 2D grid DP table for LCS.
+- Binary search patient sorting O(N log N) optimization for LIS.
+- Time: O(N log N), Space: O(N).
