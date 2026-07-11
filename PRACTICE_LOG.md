@@ -794,3 +794,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - 2D grid DP table for LCS.
 - Binary search patient sorting O(N log N) optimization for LIS.
 - Time: O(N log N), Space: O(N).
+
+### 📝 Practice Log: 2026-07-11 (2026-07-11 15:45:32 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: 1D DP: House Robber & Fibonacci transitions
+- Identified subproblem recurrence: dp[i] = max(dp[i-1], dp[i-2] + val[i]).
+- Optimized space from O(N) to O(1) keeping two variables.
+- Time: O(N), Space: O(1).
