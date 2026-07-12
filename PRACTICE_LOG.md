@@ -808,3 +808,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - State representation dp[index][capacity].
 - Space optimization to single 1D array iterating backwards.
 - Time: O(N * W), Space: O(W).
+
+### 📝 Practice Log: 2026-07-12 (2026-07-12 10:14:15 UTC)
+- **Topic**: `Stack & Queue`
+- **Focus**: Monotonic Stack for Next Greater Element
+- Maintained monotonic decreasing stack for nearest larger element.
+- Handled duplicate edge cases.
+- Time: O(N), Space: O(N).
