@@ -815,3 +815,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Maintained monotonic decreasing stack for nearest larger element.
 - Handled duplicate edge cases.
 - Time: O(N), Space: O(N).
+
+### 📝 Practice Log: 2026-07-12 (2026-07-12 13:33:43 UTC)
+- **Topic**: `Linked List`
+- **Focus**: Reversal of sub-list & Sentinel Head node technique
+- In-place pointer manipulation without extra memory allocation.
+- Handled single-node and cycle edge cases.
+- Time: O(N), Space: O(1).
