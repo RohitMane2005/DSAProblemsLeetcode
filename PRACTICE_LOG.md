@@ -1084,3 +1084,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - XOR properties: x ^ x = 0, x ^ 0 = x.
 - Bitmask subsets generation.
 - Time: O(1) operations, Space: O(1).
+
+### 📝 Practice Log: 2026-07-15 (2026-07-15 17:15:46 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: 1D & 2D DP: Memoization, Tabulation & Space Optimization
+- Identified subproblem recurrence: dp[i] = max(dp[i-1], dp[i-2] + val[i]).
+- Optimized space from O(N) to O(1) keeping running state variables.
+- Time: O(N), Space: O(1).
