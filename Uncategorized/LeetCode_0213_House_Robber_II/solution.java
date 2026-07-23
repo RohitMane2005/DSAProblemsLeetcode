@@ -8,16 +8,3 @@ class Solution {
 
     }
 
-
-    private int robbHouse(int[] nums,int start, int end){
-       int first = 0;
-       int second = 0;
-        
-        for(int i = start; i<= end; i++){
-            int current = Math.max(nums[i]+first,second);
-            first = second;
-            second = current;
-        }
-        return second;
-    }
-}
