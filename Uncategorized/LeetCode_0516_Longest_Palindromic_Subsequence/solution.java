@@ -11,3 +11,16 @@ class Solution {
             for (int j = i + 1; j < n; j++) {
                 int temp = dp[j];
                 
+                if (s.charAt(i) == s.charAt(j)) {
+                    dp[j] = prev + 2;
+                } else {
+                    dp[j] = Math.max(dp[j], dp[j - 1]);
+                }
+                
+                prev = temp;
+            }
+        }
+
+        return dp[n - 1];
+    }
+}
