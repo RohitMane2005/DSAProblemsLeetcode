@@ -843,3 +843,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - 2D grid DP table for LCS.
 - Binary search patient sorting O(N log N) optimization for LIS.
 - Time: O(N log N), Space: O(N).
+
+### 📝 Practice Log: 2026-07-29 (2026-07-29 11:49:19 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: Longest Common Subsequence & Longest Increasing Subsequence
+- 2D grid DP table for LCS.
+- Binary search patient sorting O(N log N) optimization for LIS.
+- Time: O(N log N), Space: O(N).
