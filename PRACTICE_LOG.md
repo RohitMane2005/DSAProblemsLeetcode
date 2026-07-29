@@ -850,3 +850,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - 2D grid DP table for LCS.
 - Binary search patient sorting O(N log N) optimization for LIS.
 - Time: O(N log N), Space: O(N).
+
+### 📝 Practice Log: 2026-07-29 (2026-07-29 21:56:39 UTC)
+- **Topic**: `Linked List`
+- **Focus**: Reversal of sub-list & Sentinel Head node technique
+- In-place pointer manipulation without extra memory allocation.
+- Handled single-node and cycle edge cases.
+- Time: O(N), Space: O(1).
