@@ -7,14 +7,3 @@ class Solution {
         for (int x : nums2) exists2[x] = true;
 
         int count1 = 0, count2 = 0;
-
-        for (int x : nums1) {
-            if (exists2[x]) count1++;
-        }
-        for (int x : nums2) {
-            if (exists1[x]) count2++;
-        }
-
-        return new int[]{count1, count2};
-    }
-}
