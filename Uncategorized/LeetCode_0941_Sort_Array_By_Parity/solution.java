@@ -17,3 +17,23 @@ class Solution {
         }
         return nums;
     }
+}
+
+// class Solution {
+//     public int[] sortArrayByParity(int[] arr) {
+//         int n = arr.length;
+//         int even = 0;
+//         int odd = n-1;
+
+//         while(even <=odd){
+//             if(arr[even]%2!=0){
+//                 int temp = arr[even];
+//                 arr[even] = arr[odd];
+//                 arr[odd] = temp;
+//                 odd--;
+//             }
+//             else even++;
+//         }
+//         return arr;
+//     }
+// }
