@@ -10,3 +10,16 @@ class Solution {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i; j++) {
                 if (rating[j] < rating[i]) {
+                    incPairs[i]++;
+                    totalTeams += incPairs[j];
+                } 
+                else if (rating[j] > rating[i]) {
+                    decPairs[i]++;
+                    totalTeams += decPairs[j];
+                }
+            }
+        }
+        
+        return totalTeams;
+    }
+}
