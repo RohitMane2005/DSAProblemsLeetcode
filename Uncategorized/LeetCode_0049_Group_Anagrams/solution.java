@@ -9,14 +9,3 @@ class Solution {
            }
 
            char[] keyChar = new char[26];
-          for (int i = 0; i < 26; i++) {
-                keyChar[i] = (char) ('a' + freq[i]); 
-            }
-
-            String key = new String(keyChar);
-           map.computeIfAbsent(key,k -> new ArrayList<>()).add(str);
-
-        }
-        return new ArrayList<>(map.values());
-    }
-}
