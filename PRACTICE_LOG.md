@@ -857,3 +857,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - In-place pointer manipulation without extra memory allocation.
 - Handled single-node and cycle edge cases.
 - Time: O(N), Space: O(1).
+
+### 📝 Practice Log: 2026-08-06 (2026-08-06 20:42:38 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: 0/1 Knapsack & Unbounded Knapsack memoization
+- State representation dp[index][capacity].
+- Space optimization to single 1D array iterating backwards.
+- Time: O(N * W), Space: O(W).
