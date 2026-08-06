@@ -864,3 +864,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - State representation dp[index][capacity].
 - Space optimization to single 1D array iterating backwards.
 - Time: O(N * W), Space: O(W).
+
+### 📝 Practice Log: 2026-08-06 (2026-08-06 22:12:33 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: 1D DP: House Robber & Fibonacci transitions
+- Identified subproblem recurrence: dp[i] = max(dp[i-1], dp[i-2] + val[i]).
+- Optimized space from O(N) to O(1) keeping two variables.
+- Time: O(N), Space: O(1).
