@@ -15,21 +15,3 @@ class Solution {
         for (Map.Entry<Integer, Integer> entry : countMap.entrySet()) {
             int num = entry.getKey();
             int freq = entry.getValue();
-            buckets[freq].add(num);
-        }
-
-        int[] result = new int[k];
-        int index = 0;
-
-        for (int i = buckets.length - 1; i >= 1 && index < k; i--) {
-            for (int num : buckets[i]) {
-                result[index++] = num;
-                if (index == k) {
-                    return result;
-                }
-            }
-        }
-
-        return result;
-    }
-}
