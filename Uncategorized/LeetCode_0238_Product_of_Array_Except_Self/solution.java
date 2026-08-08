@@ -9,3 +9,14 @@ class Solution {
         for (int i = 1; i < n; i++) {
             ans[i] = ans[i - 1] * nums[i - 1];
         }
+
+        // Step 2: Calculate suffix products on the fly and multiply with prefix product
+        int right = 1; // Tracks the product of all elements to the right of i
+        for (int i = n - 1; i >= 0; i--) {
+            ans[i] = ans[i] * right;
+            right *= nums[i];
+        }
+
+        return ans;
+    }
+}
