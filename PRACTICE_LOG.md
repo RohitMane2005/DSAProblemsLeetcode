@@ -878,3 +878,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - State representation dp[index][capacity].
 - Space optimization to single 1D array iterating backwards.
 - Time: O(N * W), Space: O(W).
+
+### 📝 Practice Log: 2026-08-09 (2026-08-09 17:25:05 UTC)
+- **Topic**: `Binary Search Tree`
+- **Focus**: BST Validation and Inorder Traversal properties
+- Inorder traversal of valid BST yields strictly increasing sequence.
+- Maintained (min_val, max_val) bounding range recursively.
+- Time: O(N), Space: O(H).
