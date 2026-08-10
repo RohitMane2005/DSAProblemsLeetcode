@@ -906,3 +906,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Maintained monotonic decreasing stack for nearest larger element.
 - Handled duplicate edge cases.
 - Time: O(N), Space: O(N).
+
+### 📝 Practice Log: 2026-08-10 (2026-08-10 21:02:46 UTC)
+- **Topic**: `Graphs`
+- **Focus**: Depth First Search (DFS) & Topological Sorting (Kahn's algorithm)
+- In-degree array calculation and zero-indegree queue processing.
+- Cycle detection in Directed Acyclic Graphs (DAGs).
+- Time: O(V + E), Space: O(V).
