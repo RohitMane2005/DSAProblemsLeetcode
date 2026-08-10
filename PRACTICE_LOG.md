@@ -899,3 +899,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - XOR properties: x ^ x = 0, x ^ 0 = x.
 - Bitmask subsets generation.
 - Time: O(1) operations, Space: O(1).
+
+### 📝 Practice Log: 2026-08-10 (2026-08-10 16:09:28 UTC)
+- **Topic**: `Stack & Queue`
+- **Focus**: Monotonic Stack for Next Greater Element
+- Maintained monotonic decreasing stack for nearest larger element.
+- Handled duplicate edge cases.
+- Time: O(N), Space: O(N).
