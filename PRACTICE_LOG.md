@@ -892,3 +892,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - TrieNode with 26-child array and is_end_of_word flag.
 - Fast O(L) prefix lookup where L is word length.
 - Time: O(L), Space: O(ALPHABET_SIZE * N * L).
+
+### 📝 Practice Log: 2026-08-10 (2026-08-10 12:36:34 UTC)
+- **Topic**: `Bit Manipulation`
+- **Focus**: Bitwise operations: XOR single number & bit masking
+- XOR properties: x ^ x = 0, x ^ 0 = x.
+- Bitmask subsets generation.
+- Time: O(1) operations, Space: O(1).
