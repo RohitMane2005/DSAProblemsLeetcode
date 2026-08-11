@@ -6,12 +6,3 @@ class Solution {
         while(left < right){
             int currentMax = Math.min(height[left],height[right]) * (right-left);
             max = Math.max(currentMax,max);
-            if(height[left] < height[right]){
-                left++;
-            }else{
-                right--;
-            }
-        }
-        return max;
-    }
-}
