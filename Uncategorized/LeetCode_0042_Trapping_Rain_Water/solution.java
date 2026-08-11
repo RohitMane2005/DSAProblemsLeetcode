@@ -13,18 +13,3 @@ class Solution {
                 else{
                     water += leftMax - height[left];
                 }
-                left++;
-            }else{
-                if(height[right] >= rightMax){
-                    rightMax = height[right];
-                }
-                else{
-                    water += rightMax - height[right];
-                }
-                right--;
-            }
-
-        }
-        return water;
-    }
-}
