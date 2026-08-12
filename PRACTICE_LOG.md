@@ -913,3 +913,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - In-degree array calculation and zero-indegree queue processing.
 - Cycle detection in Directed Acyclic Graphs (DAGs).
 - Time: O(V + E), Space: O(V).
+
+### 📝 Practice Log: 2026-08-12 (2026-08-12 12:13:57 UTC)
+- **Topic**: `Binary Search Tree`
+- **Focus**: BST Validation and Inorder Traversal properties
+- Inorder traversal of valid BST yields strictly increasing sequence.
+- Maintained (min_val, max_val) bounding range recursively.
+- Time: O(N), Space: O(H).
