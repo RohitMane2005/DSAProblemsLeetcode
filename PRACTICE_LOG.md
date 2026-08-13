@@ -927,3 +927,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - In-place pointer manipulation without extra memory allocation.
 - Handled single-node and cycle edge cases.
 - Time: O(N), Space: O(1).
+
+### 📝 Practice Log: 2026-08-13 (2026-08-13 22:49:15 UTC)
+- **Topic**: `Arrays & Hashing`
+- **Focus**: Two Pointers & Sliding Window techniques
+- Reviewed two-pointer convergence conditions.
+- Analyzed variable vs fixed window length invariants.
+- Time Complexity: O(N), Space Complexity: O(1).
