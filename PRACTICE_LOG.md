@@ -920,3 +920,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Inorder traversal of valid BST yields strictly increasing sequence.
 - Maintained (min_val, max_val) bounding range recursively.
 - Time: O(N), Space: O(H).
+
+### 📝 Practice Log: 2026-08-13 (2026-08-13 10:12:41 UTC)
+- **Topic**: `Linked List`
+- **Focus**: Reversal of sub-list & Sentinel Head node technique
+- In-place pointer manipulation without extra memory allocation.
+- Handled single-node and cycle edge cases.
+- Time: O(N), Space: O(1).
