@@ -8,16 +8,3 @@ class Solution {
 
         for (int right = 0; right < s.length(); right++) {
             char currentChar = s.charAt(right);
-
-            if (map.containsKey(currentChar)) {
-                left = Math.max(left, map.get(currentChar) + 1);
-            }
-
-            map.put(currentChar, right);
-
-            maxLen = Math.max(maxLen, right - left + 1);
-        }
-
-        return maxLen;
-    }
-}
