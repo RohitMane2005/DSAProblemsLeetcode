@@ -941,3 +941,9 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - TrieNode with 26-child array and is_end_of_word flag.
 - Fast O(L) prefix lookup where L is word length.
 - Time: O(L), Space: O(ALPHABET_SIZE * N * L).
+
+### 📝 Practice Log: 2026-08-15 (2026-08-15 12:32:31 UTC)
+- **Topic**: `Graphs`
+- **Focus**: Breadth First Search (BFS) for shortest path in unweighted graph
+- Queue-based frontier expansion with visited set to prevent infinite cycles.
+- Time: O(V + E), Space: O(V).
