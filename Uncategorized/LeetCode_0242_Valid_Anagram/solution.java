@@ -7,12 +7,3 @@ class Solution {
             freq[s.charAt(i) - 'a']++;
             freq[t.charAt(i) - 'a']--;
         }
-
-        for(int x : freq){
-            if(x != 0){
-                return false;
-            }
-        }
-        return true;
-    }
-}
