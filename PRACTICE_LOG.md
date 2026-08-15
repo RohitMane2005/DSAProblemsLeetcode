@@ -947,3 +947,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - **Focus**: Breadth First Search (BFS) for shortest path in unweighted graph
 - Queue-based frontier expansion with visited set to prevent infinite cycles.
 - Time: O(V + E), Space: O(V).
+
+### 📝 Practice Log: 2026-08-15 (2026-08-15 18:58:19 UTC)
+- **Topic**: `Dynamic Programming`
+- **Focus**: Longest Common Subsequence & Longest Increasing Subsequence
+- 2D grid DP table for LCS.
+- Binary search patient sorting O(N log N) optimization for LIS.
+- Time: O(N log N), Space: O(N).
