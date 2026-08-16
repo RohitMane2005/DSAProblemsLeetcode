@@ -12,3 +12,19 @@ class Solution {
             
             // Track the frequency of the most frequent character in the current window
             maxCount = Math.max(maxCount, count[currentCharIndex]);
+
+            // Window length is (right - left + 1)
+            // Number of characters to replace = (window length - maxCount)
+            // If replacements needed exceed k, shrink the window from the left
+            while ((right - left + 1) - maxCount > k) {
+                count[s.charAt(left) - 'A']--;
+                left++;
+            }
+
+            // Update maximum valid window length found so far
+            maxLength = Math.max(maxLength, right - left + 1);
+        }
+
+        return maxLength;
+    }
+}
