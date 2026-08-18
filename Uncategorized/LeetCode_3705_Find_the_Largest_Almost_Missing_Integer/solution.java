@@ -13,3 +13,18 @@ class Solution {
             for (int j = i; j < i + k; j++) {
                 uniqueInWindow.add(nums[j]);
             }
+            // Increment the subarray frequency for each unique element in this window
+            for (int val : uniqueInWindow) {
+                subarrayCount[val]++;
+            }
+        }
+
+        int maxAlmostMissing = -1;
+        for (int val = 0; val <= 50; val++) {
+            if (subarrayCount[val] == 1) {
+                maxAlmostMissing = Math.max(maxAlmostMissing, val);
+            }
+        }
+        return maxAlmostMissing;
+    }
+}
