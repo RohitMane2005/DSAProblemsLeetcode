@@ -10,15 +10,3 @@ class Solution {
             int rightSqr = arr[right] * arr[right];
 
             if (leftSqr > rightSqr) {
-                ans[index] = leftSqr;
-                left++;
-            } else {
-                ans[index] = rightSqr;
-                right--;
-            }
-            index--;
-        }
-
-        return ans;
-    }
-}
