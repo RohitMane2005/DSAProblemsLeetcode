@@ -967,3 +967,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - **Focus**: Breadth First Search (BFS) for shortest path in unweighted graph
 - Queue-based frontier expansion with visited set to prevent infinite cycles.
 - Time: O(V + E), Space: O(V).
+
+### 📝 Practice Log: 2026-08-21 (2026-08-21 21:05:23 UTC)
+- **Topic**: `Graphs`
+- **Focus**: Depth First Search (DFS) & Topological Sorting (Kahn's algorithm)
+- In-degree array calculation and zero-indegree queue processing.
+- Cycle detection in Directed Acyclic Graphs (DAGs).
+- Time: O(V + E), Space: O(V).
