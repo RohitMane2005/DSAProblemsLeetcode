@@ -961,3 +961,9 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Reviewed two-pointer convergence conditions.
 - Analyzed variable vs fixed window length invariants.
 - Time Complexity: O(N), Space Complexity: O(1).
+
+### 📝 Practice Log: 2026-08-21 (2026-08-21 18:55:03 UTC)
+- **Topic**: `Graphs`
+- **Focus**: Breadth First Search (BFS) for shortest path in unweighted graph
+- Queue-based frontier expansion with visited set to prevent infinite cycles.
+- Time: O(V + E), Space: O(V).
