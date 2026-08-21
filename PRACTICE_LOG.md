@@ -974,3 +974,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - In-degree array calculation and zero-indegree queue processing.
 - Cycle detection in Directed Acyclic Graphs (DAGs).
 - Time: O(V + E), Space: O(V).
+
+### 📝 Practice Log: 2026-08-21 (2026-08-21 22:19:21 UTC)
+- **Topic**: `Disjoint Set Union`
+- **Focus**: Union-Find with Path Compression and Union by Rank
+- Near-constant amortized time complexity O(alpha(N)) using inverse Ackermann.
+- Useful for dynamic connectivity and Kruskal's MST.
+- Time: O(alpha(N)), Space: O(N).
