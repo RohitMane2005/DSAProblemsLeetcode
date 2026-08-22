@@ -981,3 +981,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Near-constant amortized time complexity O(alpha(N)) using inverse Ackermann.
 - Useful for dynamic connectivity and Kruskal's MST.
 - Time: O(alpha(N)), Space: O(N).
+
+### 📝 Practice Log: 2026-08-22 (2026-08-22 09:45:51 UTC)
+- **Topic**: `Two Pointers`
+- **Focus**: Fast and Slow Pointers pattern review
+- Cycle detection in sequences and middle-element finder.
+- Step sizes: slow=1, fast=2.
+- Time Complexity: O(N), Space Complexity: O(1).
