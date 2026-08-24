@@ -15,3 +15,21 @@ class Solution {
             if (arr1.get(arr1.size() - 1) > arr2.get(arr2.size() - 1)) {
                 arr1.add(nums[i]);
             } else {
+                arr2.add(nums[i]);
+            }
+        }
+
+        // Concatenate arr1 and arr2 into the result array
+        int[] result = new int[nums.length];
+        int idx = 0;
+
+        for (int num : arr1) {
+            result[idx++] = num;
+        }
+        for (int num : arr2) {
+            result[idx++] = num;
+        }
+
+        return result;
+    }
+}
