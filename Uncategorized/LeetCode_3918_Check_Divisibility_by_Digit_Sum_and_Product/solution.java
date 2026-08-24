@@ -6,11 +6,3 @@ class Solution {
         while(temp != 0){
             int currentDigit = temp%10;
             product *= currentDigit;
-            sum += currentDigit;
-            temp/=10;
-            
-        }
-        int totalSum = (sum + product);
-        return n % totalSum == 0;
-    }
-}
