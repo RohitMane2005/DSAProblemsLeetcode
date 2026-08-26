@@ -1105,3 +1105,10 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Cycle detection in sequences and middle-element finder (Floyd's algorithm).
 - Step sizes: slow=1, fast=2.
 - Time Complexity: O(N), Space Complexity: O(1).
+
+### 📝 Practice Log: 2026-08-26 (2026-08-26 14:38:39 UTC)
+- **Topic**: `Arrays & Hashing`
+- **Focus**: Two Pointers & Sliding Window techniques
+- Reviewed two-pointer convergence conditions.
+- Analyzed variable vs fixed window length invariants.
+- Time Complexity: O(N), Space Complexity: O(1).
