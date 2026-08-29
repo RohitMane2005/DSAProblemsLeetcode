@@ -1119,3 +1119,9 @@ This log tracks daily algorithmic practice, topic revisions, and complexity anal
 - Near-constant amortized time complexity O(alpha(N)) using inverse Ackermann.
 - Useful for dynamic connectivity and Kruskal's MST.
 - Time: O(alpha(N)), Space: O(N).
+
+### 📝 Practice Log: 2026-08-29 (2026-08-29 10:37:21 UTC)
+- **Topic**: `Heaps / Priority Queue`
+- **Focus**: Top K Frequent Elements & Min-Heap / Max-Heap patterns
+- Maintained min-heap of size K to find top K largest elements.
+- Time: O(N log K), Space: O(K).
