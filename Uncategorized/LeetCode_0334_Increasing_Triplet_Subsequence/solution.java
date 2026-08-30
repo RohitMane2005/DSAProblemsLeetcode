@@ -8,13 +8,3 @@ class Solution {
         
             if(first >= currentEle){
                 first = currentEle;
-            }else if(sec >= currentEle){
-                sec = currentEle;
-            }else{
-                third = currentEle;
-                return true;
-            }
-        }
-        return false;
-    }
-}
